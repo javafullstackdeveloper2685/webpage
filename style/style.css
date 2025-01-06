@@ -45,6 +45,7 @@ header h1 {
 }
 
 footer {
+    margin-top: 1.5rem;
     text-align: center;
     padding: 1rem;
     background-color: #333;
@@ -57,4 +58,25 @@ footer {
 footer a {
     color: #1e90ff;
     text-decoration: none;
+}
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes glowEffect {
+    0% {
+        box-shadow: 0 0 10px rgba(108, 92, 231, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(108, 92, 231, 0.5);
+    }
+    
 }
